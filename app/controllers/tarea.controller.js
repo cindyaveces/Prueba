@@ -15,7 +15,6 @@ exports.create = (req, res) => {
     id_usuario: req.body.id_usuario,  
     nombre: req.body.nombre,
     estado: req.body.estado,
-    fecha_creacion: req.body.fecha_creacion,
     fecha_vencimiento: req.body.fecha_vencimiento,
     };
 
