@@ -15,7 +15,7 @@ exports.create = (req, res) => {
         nombre: req.body.nombre,
         correo: req.body.correo,
         contrasenia: req.body.contrasenia,
-        fecha_creacion: req.body.fecha_creacion,
+        
         
     };
 
